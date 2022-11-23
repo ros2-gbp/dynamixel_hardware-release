@@ -1,0 +1,12 @@
+Source: ros-rolling-dynamixel-hardware
+Section: misc
+Priority: optional
+Maintainer: Yutaka Kondo <yutaka.kondo@youtalk.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ament-lint-auto <!nocheck>, ros-rolling-ament-lint-common <!nocheck>, ros-rolling-dynamixel-workbench-toolbox, ros-rolling-hardware-interface, ros-rolling-lifecycle-msgs, ros-rolling-pluginlib, ros-rolling-rclcpp, ros-rolling-rclcpp-lifecycle, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-dynamixel-hardware
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-dynamixel-workbench-toolbox, ros-rolling-hardware-interface, ros-rolling-lifecycle-msgs, ros-rolling-pluginlib, ros-rolling-rclcpp, ros-rolling-rclcpp-lifecycle, ros-rolling-ros-workspace
+Description: ros2_control hardware for ROBOTIS Dynamixel
