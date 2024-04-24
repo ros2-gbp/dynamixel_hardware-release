@@ -14,7 +14,7 @@ tracks:
       :{release_inc} --os-name fedora
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc} --os-name rhel
-    devel_branch: rolling
+    devel_branch: iron
     last_version: 0.3.1
     name: dynamixel_hardware
     patches: null
@@ -24,7 +24,7 @@ tracks:
     ros_distro: iron
     vcs_type: git
     vcs_uri: https://github.com/dynamixel-community/dynamixel_hardware.git
-    version: 0.3.1
+    version: :{auto}
   jazzy:
     actions:
     - bloom-export-upstream :{vcs_local_uri} :{vcs_type} --tag :{release_tag} --display-uri
