@@ -104,5 +104,4 @@ tracks:
     ros_distro: rolling
     vcs_type: git
     vcs_uri: https://github.com/dynamixel-community/dynamixel_hardware.git
-    version: 0.6.0
-    version_saved: :{auto}
+    version: :{auto}
