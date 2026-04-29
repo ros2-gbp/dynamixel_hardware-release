@@ -1,1 +1,1 @@
-{"base": "07c80f1b703c", "parent": "debian/rolling/dynamixel_hardware", "previous": "ed9f3287441a", "trim": "", "trimbase": ""}
+{"base": "f2da8a9", "parent": "debian/lyrical/dynamixel_hardware", "previous": "16a5803", "trim": "", "trimbase": ""}
