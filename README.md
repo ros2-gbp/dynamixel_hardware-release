@@ -1,3 +1,26 @@
+## dynamixel_hardware (lyrical) - 0.6.1-2
+
+The packages in the `dynamixel_hardware` repository were released into the `lyrical` distro by running `/usr/bin/bloom-release --rosdistro lyrical --track lyrical dynamixel_hardware` on `Fri, 24 Jul 2026 23:36:41 -0000`
+
+The `dynamixel_hardware` package was released.
+
+Version of package(s) in repository `dynamixel_hardware`:
+
+- upstream repository: https://github.com/dynamixel-community/dynamixel_hardware.git
+- release repository: https://github.com/ros2-gbp/dynamixel_hardware-release.git
+- rosdistro version: `0.6.0-3`
+- old version: `0.6.1-1`
+- new version: `0.6.1-2`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## dynamixel_hardware (rolling) - 0.6.1-1
 
 The packages in the `dynamixel_hardware` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling --track lyrical dynamixel_hardware` on `Fri, 24 Jul 2026 23:35:18 -0000`
